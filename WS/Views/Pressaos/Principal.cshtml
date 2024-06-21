@@ -1,0 +1,19 @@
+﻿@model WS.Models.Pressao
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Média</title>
+</head>
+<body>
+    <h1>Média de Sístole</h1>
+    <p>A média de Sistole é: @ViewData["AvgSistole"]</p>
+    <h1>_________________________________________________</h1>
+    <h1>Média de Diástole</h1>
+    <p>A média da Diástole é: @ViewData["AvgDiastole"]</p>
+    <br />
+    <a class="nav-link text-dark" asp-area="" asp-controller="Pressaos" asp-action="Create">Gravar</a>
+    <a class="nav-link text-dark" asp-area="" asp-controller="Pressaos" asp-action="Index">Histórico</a>
+</body>
+</html>
+
